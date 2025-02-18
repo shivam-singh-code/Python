@@ -1,0 +1,8 @@
+pip install package name --> install package
+pip list --> show all install package
+pip install -U packagename --> upgrade package
+pip show package --> show the details of specified package
+py -m venv .venv --> create a virtual environement
+source venv/Scripts/activate --> activate virtual environement
+deactivate --> deactive active virtual environement
+pip freeze > requirements.txt  --> generate requirement file to for packages to manage package for venv
